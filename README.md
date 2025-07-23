@@ -7,19 +7,21 @@ Somos a maior plataforma de negociação de criptomoedas e ativos alternativos d
 O objetivo deste desafio é entender seus conhecimentos, estilo de programação e como você resolve desafios técnicos.
 
 ### Projeto
-Criar um aplicativo para consultar a [coinapi.io](https://docs.coinapi.io/?shell#list-all-exchanges-get) e trazer as exchanges em forma de lista.
+Criar um aplicativo para consultar a [coinmarketcap](https://coinmarketcap.com/api/documentation/v1/#operation/getV1ExchangeInfo) e trazer as exchanges em forma de lista e suas moedas.
+
 
 ### Credencial da API
-Será necessária uma [API_KEY](https://console.coinapi.io/?link=/apikeys/create) para utilizar a API.
+Será necessária uma [API_KEY](https://pro.coinmarketcap.com/api/v1) para utilizar a API.
 
 
 ### Features
 -   **Tela de listagem:**
-    - Exibir, pelo menos, os campos: `name`, `exchange_id` e `volume_1day_usd`
+    - Exibir, pelo menos, os campos: `logo`, `name`, `spot_volume_usd` e `date_launched`
     - Ao tocar em um item deve ser exibida a tela de detalhes.
 -   **Tela de detalhe:**
-    - Exibe os detalhes da exchange.
-
+    - Exibe os detalhes da exchange com os campos: `logo`, `name`, `id`, `description`, `url do website`, `maker_fee`, `taker_fee` e `date_launched`;
+    - E a [Listagem das moedas](https://coinmarketcap.com/api/documentation/v1/#operation/getV1ExchangeAssets) com os campos: `currency.name` e `currency.price_usd`
+    
 ### Requisitos Técnicos
 |      Android       |     iOS            |
 | ------------------ | ------------------ |
