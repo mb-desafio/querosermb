@@ -23,20 +23,20 @@ Será necessária uma [API_KEY](https://pro.coinmarketcap.com/api/v1) para utili
     - E a [Listagem das moedas](https://coinmarketcap.com/api/documentation/v1/#operation/getV1ExchangeAssets) com os campos: `currency.name` e `currency.price_usd`
     
 ### Requisitos Técnicos
-|      Android       |     iOS            |
-| ------------------ | ------------------ |
-| Kotlin             |  Swift 5+          |
-| Compose            |  View Code         |
-| Testes unitários   |  Testes unitários  |
-| Testes de UI       |  Testes de UI      |
+|      Android       |     iOS            |     Flutter        |
+| ------------------ | ------------------ | ------------------ |
+| Kotlin             |  Swift 5+          | Dart               |
+| Compose            |  View Code         | Flutter Widgets    |
+| Testes unitários   |  Testes unitários  | Testes unitários   |
+| Testes de UI       |  Testes de UI      | Testes de UI       |
 
 #### Arquitetura
 
 Sinta-se à vontade para utilizar a arquitetura que melhor atender o projeto proposto. Aqui no Mercado Bitcoin utilizamos 
 
-|      Android       |     iOS            |
-| ------------------ | ------------------ |
-| MVVM com Clean     |  MVVM-C e VIP-C    | 
+|      Android       |     iOS            |     Flutter            |
+| ------------------ | ------------------ | ---------------------- |
+| MVVM com Clean     |  MVVM-C e VIP-C    | Flutter_Bloc com Clean |
 
 ### Requisitos não funcionais
 
@@ -52,10 +52,10 @@ O candidato deverá criar um novo repositório no Github, público ou privado, p
 
 Caso opte pelo repositório privado, adicionar como **ADMIN** os usuários abaixo:
 
-|      Android       |     iOS            |
-| ------------------ | ------------------ |
-| luiztorres-mb | guilhermemachado-mb |
-| gabrielprado-mb | alexandremarconi-mb |
+|      Android       |     iOS             |    Flutter          |
+| ------------------ | ------------------- |-------------------- |
+| gabrielprado-mb    | guilhermemachado-mb | gabrielprado-mb     |
+| luiztorres-mb      | alexandremarconi-mb | guilhermemachado-mb |
 
 ### IMPORTANTE
 Esse código não será usado em nenhuma hipótese para qualquer fim a não ser o de avaliação de conhecimentos técnicos.
